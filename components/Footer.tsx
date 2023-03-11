@@ -19,8 +19,8 @@ const Footer: FC<Props> = (props) => (
         spacing={[1, null, 2]}
         {...props}
     >
-        <Link href="https://github.com/thedaviddelta/lingva-translate/blob/main/LICENSE" isExternal={true}>
-            <Text as="span">&#169; 2021 thedaviddelta & contributors</Text>
+        <Link href="https://github.com/haoqiyung/lingva-translate/blob/main/LICENSE" isExternal={true}>
+            <Text as="span">&#169; 2023 thedaviddelta & contributors</Text>
         </Link>
         <Text as="span" display={["none", null, "unset"]}>·</Text>
         <Link href="https://www.gnu.org/licenses/agpl-3.0.html" isExternal={true}>
@@ -29,7 +29,7 @@ const Footer: FC<Props> = (props) => (
         {vercelSponsor && (
             <>
                 <Text as="span" display={["none", null, "unset"]}>·</Text>
-                <Link href="https://vercel.com?utm_source=lingva-team&utm_campaign=oss" isExternal={true}>
+                <Link href="" isExternal={true}>
                     <Text as="span">▲ Powered by Vercel</Text>
                 </Link>
             </>
