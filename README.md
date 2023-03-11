@@ -2,30 +2,9 @@
 
 <img src="public/logo.svg" width="128" align="right">
 
-[![Travis Build](https://travis-ci.com/thedaviddelta/lingva-translate.svg?branch=main)](https://travis-ci.com/thedaviddelta/lingva-translate)
-[![Vercel Status](https://img.shields.io/github/deployments/thedaviddelta/lingva-translate/Production?label=vercel&logo=vercel&color=f5f5f5)](https://lingva.ml/)
-[![Cypress Tests](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/qgjdyd&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/qgjdyd/runs)
-[![License](https://img.shields.io/github/license/thedaviddelta/lingva-translate)](./LICENSE)
-[![Awesome Humane Tech](https://raw.githubusercontent.com/humanetech-community/awesome-humane-tech/main/humane-tech-badge.svg?sanitize=true)](https://github.com/humanetech-community/awesome-humane-tech)
-[<img src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg" alt="Powered by Vercel" height="20">](https://vercel.com?utm_source=lingva-team&utm_campaign=oss)
 
 Alternative front-end for Google Translate, serving as a Free and Open Source translator with over a hundred languages available
 
-
-## How does it work?
-
-Inspired by projects like [NewPipe](https://github.com/TeamNewPipe/NewPipe), [Nitter](https://github.com/zedeus/nitter), [Invidious](https://github.com/iv-org/invidious) or [Bibliogram](https://git.sr.ht/~cadence/bibliogram), *Lingva* scrapes through Google Translate and retrieves the translation without directly accessing any Google-related service, preventing them from tracking.
-
-For this purpose, *Lingva* is built, among others, with the following Open Source resources:
-
-+ [Lingva Scraper](https://github.com/thedaviddelta/lingva-scraper), a Google Translate scraper built and maintained specifically for this project, which obtains all kind of information from this platform.
-+ [TypeScript](https://www.typescriptlang.org/), the JavaScript superset, as the language.
-+ [React](https://reactjs.org/) as the main front-end framework.
-+ [Next.js](https://nextjs.org/) as the complementary React framework, that provides Server-Side Rendering, Static Site Generation or serverless API endpoints.
-+ [ChakraUI](https://chakra-ui.com/) for the in-component styling.
-+ [Jest](https://jestjs.io/), [Testing Library](https://testing-library.com/) & [Cypress](https://www.cypress.io/) for unit, integration & E2E testing.
-+ [Apollo Server](https://www.apollographql.com/docs/apollo-server/) for handling the GraphQL endpoint.
-+ [Inkscape](https://inkscape.org/) for designing both the logo and the banner.
 
 
 ## Deployment
@@ -210,20 +189,7 @@ query {
 + [Translate-UT](https://github.com/walking-octopus/translate-ut) - Unofficial native client for Ubuntu Touch that uses Lingva's public API
 
 
-## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://thedaviddelta.com/"><img src="https://avatars.githubusercontent.com/u/6679900?v=4?s=100" width="100px;" alt=""/><br /><sub><b>David</b></sub></a><br /><a href="#a11y-TheDavidDelta" title="Accessibility">️️️️♿️</a> <a href="https://github.com/TheDavidDelta/lingva-translate/commits?author=TheDavidDelta" title="Code">💻</a> <a href="https://github.com/TheDavidDelta/lingva-translate/commits?author=TheDavidDelta" title="Documentation">📖</a> <a href="#design-TheDavidDelta" title="Design">🎨</a> <a href="https://github.com/TheDavidDelta/lingva-translate/commits?author=TheDavidDelta" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://github.com/mhmdanas"><img src="https://avatars.githubusercontent.com/u/32234660?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mohammed Anas</b></sub></a><br /><a href="https://github.com/TheDavidDelta/lingva-translate/commits?author=mhmdanas" title="Code">💻</a></td>
-    <td align="center"><a href="https://PussTheCat.org/"><img src="https://avatars.githubusercontent.com/u/47571719?v=4?s=100" width="100px;" alt=""/><br /><sub><b>TheFrenchGhosty</b></sub></a><br /><a href="https://github.com/TheDavidDelta/lingva-translate/commits?author=TheFrenchGhosty" title="Documentation">📖</a></td>
-  </tr>
-</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
@@ -237,5 +203,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 [![](https://www.gnu.org/graphics/agplv3-with-text-162x68.png)](https://www.gnu.org/licenses/agpl-3.0.html)
 
-Copyright © 2021 [thedaviddelta](https://github.com/thedaviddelta) & contributors.  
 This project is [GNU AGPLv3](./LICENSE) licensed.
